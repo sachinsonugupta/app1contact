@@ -1,0 +1,12 @@
+<table>
+	<th>Name </th>
+	<th>First Name</th>
+	<th>Lat Name</th>
+	<% @contacts.each do |c| %>
+		<tr>
+			<td><%= c.name %></td>
+			<td><%= c.first_name %></td>
+			<td><%= c.last_name %></td>
+		</tr>
+	<% end %>
+</table>
